@@ -1,10 +1,10 @@
 
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import LandingPage from "./pages/landingPage.jsx";
-import LabSupplies from './pages/LabSupplies';
-import RefrigerationClothing from './pages/RefrigerationClothing';
-import MedicalSupplies from './pages/MedicalSupplies';
-import StainlessSteelTools from './pages/StainlessSteelTools';
+import LabSupplies from "./pages/laboratorio.jsx";
+import RefrigerationClothing from './pages/frigorificos.jsx';
+import MedicalSupplies from './pages/medicina.jsx';
+import StainlessSteelTools from './pages/herreria.jsx';
 import Navbar from './components/navbar.jsx';
 import Footer from './components/footer.jsx';
 

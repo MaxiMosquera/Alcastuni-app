@@ -1,6 +1,6 @@
+/* eslint-disable react/prop-types */
 
-
-const ProductCard = ({ name, image, description }) => {
+const ProductCard = ({name, image , description  }) => {
   return (
     <div className="product-card">
       <img src={image} alt={name} className="product-image" />
